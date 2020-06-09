@@ -1,4 +1,6 @@
 #! -*- coding: utf-8 -*-
+# BERT做无监督分词
+# 介绍：https://kexue.fm/archives/7476
 
 import numpy as np
 from bert4keras.models import build_transformer_model
