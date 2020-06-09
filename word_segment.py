@@ -28,7 +28,7 @@ def dist(x, y):
     return np.sqrt(((x - y)**2).sum())
 
 
-batch_token_ids = np.array([token_ids] * (2 * length + 1))
+batch_token_ids = np.array([token_ids] * (2 * length - 1))
 batch_segment_ids = np.zeros_like(batch_token_ids)
 
 for i in range(length):
