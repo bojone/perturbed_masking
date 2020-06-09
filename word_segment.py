@@ -50,3 +50,4 @@ for i in range(1, length):
 
 words = [tokenizer.decode(ids) for ids in word_token_ids]
 print(words)
+# 结果：[u'大肠杆菌', u'是', u'人和', u'许多', u'动物', u'肠道', u'中最', u'主要', u'且数量', u'最多', u'的', u'一种', u'细菌']
