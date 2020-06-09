@@ -37,7 +37,7 @@ for i in range(length):
 
 vectors = model.predict([batch_token_ids, batch_segment_ids])
 
-threshold = 6
+threshold = 8
 word_token_ids = [[token_ids[1]]]
 for i in range(1, length):
     d1 = dist(vectors[2 * i, i + 1], vectors[2 * i - 1, i + 1])
