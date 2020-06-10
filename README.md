@@ -18,7 +18,8 @@
 ```
 
 无监督句法分析：
-<img src="https://kexue.fm/usr/uploads/2020/06/1080117526.png" width=500>
+
+<img src="https://kexue.fm/usr/uploads/2020/06/1080117526.png" width=560>
 
 # 交流
 QQ交流群：67729435，微信群请加机器人微信号spaces_ac_cn
