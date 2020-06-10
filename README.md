@@ -2,7 +2,8 @@
 
 文章 [Perturbed Masking: Parameter-free Probing for Analyzing and Interpreting BERT](https://arxiv.org/abs/2004.14786) 所提的方法在中文上的简单验证。
 
-博客介绍：https://kexue.fm/archives/7476
+- 博客介绍：https://kexue.fm/archives/7476
+- 原作实现：https://github.com/LividWo/Perturbed-Masking
 
 # 演示
 
