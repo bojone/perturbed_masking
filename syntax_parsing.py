@@ -2,6 +2,7 @@
 # BERT无监督提取句法结构
 # 介绍：https://kexue.fm/archives/7476
 
+import json
 import numpy as np
 from bert4keras.models import build_transformer_model
 from bert4keras.tokenizers import Tokenizer
@@ -82,3 +83,43 @@ def build_tree(words, distances):
 
 # 用json.dumps做简单的可视化
 json.dumps(build_tree(words, distances), indent=4, ensure_ascii=False)
+"""输出：
+[
+    [
+        [
+            "计算机"
+        ],
+        [
+            "的",
+            [
+                "鼠标"
+            ]
+        ]
+    ],
+    [
+        "有",
+        [
+            [
+                [
+                    "什么"
+                ],
+                [
+                    "比较",
+                    [
+                        "特殊"
+                    ]
+                ]
+            ],
+            [
+                "的",
+                [
+                    "用途",
+                    [
+                        "呢"
+                    ]
+                ]
+            ]
+        ]
+    ]
+]
+"""
